@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+          <head>	
+              <css src="V4U_OwlCarousel::css/owl.carousel.css"/>
+              <css src="V4U_OwlCarousel::css/owl.theme.css"/>
+              <css src="V4U_OwlCarousel::css/owl.transitions.css"/>
+              <css src="V4U_OwlCarousel::css/fancybox/jquery.fancybox.css"/>
+        	  <css src="V4U_OwlCarousel::css/font-awesome.min.css"/>
+          </head>
+    <body>
+         
+    </body>
+</page>
