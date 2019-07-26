@@ -21,3 +21,5 @@ You can call slider.phtml file in block by using
 {{block class="Magento\Framework\View\Element\Template" template="V4U_OwlCarousel::slider.phtml"}}
 
 How to use owlcarousel slider in CMS Page and Block read the "How_to_add_owlcarousel_slider_magento2" file.
+
+Supports: Magento 2.1, 2.2, 2.3
