@@ -60,3 +60,5 @@ Use this code directly in CMS Page & Block
 // ]]></script>
 </div>
 </div>
+
+Support Version: Magento 2.1, 2.2, 2.3
