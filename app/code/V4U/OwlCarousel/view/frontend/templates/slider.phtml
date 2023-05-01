@@ -1,36 +1,71 @@
-<div class="hbr-main pad-main">
-<div class="block-title-main">
+<div class="title>">
 <h2>V4U OwlCarousel Slider</h2>
-<div class="title-border"></div>
 </div>
-<div class="hbr-main">
-<div style="margin: 0 -10px;">
-<div class="hbr-content hbr-slider">
-<div class="hbr-inner">1</div>
-<div class="hbr-inner">2</div>
-<div class="hbr-inner">3</div>
-<div class="hbr-inner">4</div>
-<div class="hbr-inner">5</div>
-<div class="hbr-inner">6</div>
-<div class="hbr-inner">7</div>
-</div>
-</div>
-<script type="text/javascript" xml="space">// <![CDATA[
-            require(['jquery', 'cpowlcarousel'], function ($) {
-                jQuery(document).ready(function () {
-                    jQuery(".hbr-slider").owlCarousel({
-                        items: 5,
-                        itemsDesktop: [1080, 4],
-                        itemsDesktopSmall: [860, 3],
-                        itemsTablet: [768, 3],
-                        itemsTabletSmall: [639, 3],
-                        itemsMobile: [479, 2],
-                        pagination: false,
-                        navigationText: ['<div class="lft-btn"><i class="fa fa-angle-left"></i></div>', '<div class="rgt-btn"><i class="fa fa-angle-right"></div>'],
-                        navigation: true,
-                    });
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <h4>1</h4>
+        </div>
+        <div class="item">
+          <h4>2</h4>
+        </div>
+        <div class="item">
+          <h4>3</h4>
+        </div>
+        <div class="item">
+          <h4>4</h4>
+        </div>
+        <div class="item">
+          <h4>5</h4>
+        </div>
+        <div class="item">
+          <h4>6</h4>
+        </div>
+        <div class="item">
+          <h4>7</h4>
+        </div>
+        <div class="item">
+          <h4>8</h4>
+        </div>
+        <div class="item">
+          <h4>9</h4>
+        </div>
+        <div class="item">
+          <h4>10</h4>
+        </div>
+        <div class="item">
+          <h4>11</h4>
+        </div>
+        <div class="item">
+          <h4>12</h4>
+        </div>
+      </div>
+      
+  <script type="text/javascript">
+        require(['jquery', 'vpowlcarousel'], function ($) {
+            jQuery(document).ready(function () {
+                jQuery(".owl-carousel").owlCarousel({
+                    loop:true,
+                    responsiveClass:true,
+                    responsive:{
+                        0:{
+                            items:1,
+                            nav:true,
+                            dots: true,
+                        },
+                        600:{
+                            items:2,
+                            nav:false,
+                            dots: true,
+                        },
+                        1000:{
+                            items:4,
+                            nav:true,
+                            loop:false,
+                            dots: true,
+                            navText: [ "<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+                        }
+                    }
                 });
             });
-// ]]></script>
-</div>
-</div>
+        });
+    </script>
